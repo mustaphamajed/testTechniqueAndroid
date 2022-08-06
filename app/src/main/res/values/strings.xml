@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TestTechnique</string>
+    <!-- underlined text. -->
+    <string name="my_text"> <u>No Account ?Sign up</u></string>
+    <string name="forgot_text"> <u>Forgot Password?</u></string>
+    <string name="condition_text">I herby accept <u>terms and conditions </u></string>
+    <string name="addDevicestext">The information from your child’s device will help us to assess their mental health, duration of sleep, places visited, used applications  etc.
+It also gives you the ability to block or allow installed applications</string>
+    <string name="addDevices">Please follow the following steps:<br />
+        1.Bring your child’s mobile phone<br />
+        2.Scan this QR code with your child’s device camera<br />
+        3.You will be redirected to the 4IN shield application download page<br />
+        4.Once the application is installed, click Next</string>
+
+    <string name="addProfile">Please enter your child’s social media account information</string>
+    <string name="addProfiletext">This information will help us to protect your child from online abusive content and cyberharassment</string>
+    <string name="confirmProfiletext">Your child’s profile information has been successfully added</string>
+    <string name="Addchildtext">Please enter the required information to complete your child’s profile</string>
+    <string name="congratstext">You have successfully completed you child profile.</string>
+    <string name="congrattext">Thank you for your confidence in us.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

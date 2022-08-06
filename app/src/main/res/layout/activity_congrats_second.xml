@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="20dp"
+    tools:context=".CongratsSecondActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+    android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/congrattext" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <Button
+        android:id="@+id/dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+      android:layout_marginTop="60dp"
+        android:background="@drawable/custom_btn"
+        android:drawableTint="@color/backgroundColor"
+        android:drawableRight="@drawable/arrow_right_24"
+        android:padding="8dp"
+        android:text="Go to dashboard"
+        android:textAllCaps="false"
+        android:textColor="@color/backgroundColor" />
+
+</LinearLayout>

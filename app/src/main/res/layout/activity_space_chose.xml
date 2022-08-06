@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SpaceChoseActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Who is going to use \nthis device?"
+        />
+    <RelativeLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="200dp"
+        android:background="@drawable/custom_btn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textSize="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="50dp"
+            android:textStyle="bold"
+            android:text="Parents"
+            android:textColor="@color/backgroundColor" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/child"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="200dp"
+        android:background="@drawable/custom_btn">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textSize="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="50dp"
+            android:textStyle="bold"
+            android:text="Child"
+            android:textColor="@color/backgroundColor" />
+    </RelativeLayout>
+</LinearLayout>

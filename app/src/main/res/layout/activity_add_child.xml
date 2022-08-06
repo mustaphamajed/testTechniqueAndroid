@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="20dp"
+    tools:context=".AddChildActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:rotationY="180"
+        android:useDefaultMargins="true"
+
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+            android:rotation="-10"
+            app:srcCompat="@drawable/avatar" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+            android:rotation="10"
+            app:srcCompat="@drawable/avatar1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+            app:srcCompat="@drawable/avatar2" />
+    </GridLayout>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="@string/Addchildtext" />
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/custom_btn"
+        android:padding="15dp"
+        android:hint="First name"
+        android:textSize="14dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/custom_btn"
+        android:padding="15dp"
+        android:hint="Last name"
+        android:textSize="14dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/custom_btn"
+        android:padding="15dp"
+        android:hint="Gender"
+        android:textSize="14dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/custom_btn"
+        android:padding="15dp"
+        android:hint="Birth date"
+        android:textSize="14dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:background="@drawable/custom_btn"
+            android:drawableTint="@color/backgroundColor"
+            android:padding="8dp"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/backgroundColor" />
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/custom_btn"
+            android:drawableRight="@drawable/arrow_right_24"
+            android:drawableTint="@color/backgroundColor"
+            android:padding="8dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="@color/backgroundColor" />
+
+    </LinearLayout>
+
+</LinearLayout>

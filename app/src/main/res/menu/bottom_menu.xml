@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/dash"
+        android:title="DASHBOARD"
+
+     />
+    <item
+        android:id="@+id/phone"
+        android:title="PHONE USAGE"/>
+    <item
+        android:id="@+id/social"
+        android:title="SOCIAL MEDIA" />
+    <item
+        android:id="@+id/alert"
+        android:title="ALERTS"/>
+</menu>

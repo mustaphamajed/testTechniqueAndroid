@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="20dp"
+    tools:context=".ConfirmProfileActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="@string/confirmProfiletext" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/vector" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:useDefaultMargins="true"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+            app:srcCompat="@drawable/avatar" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+            app:srcCompat="@drawable/avatar1" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+
+            app:srcCompat="@drawable/avatar2" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:background="@drawable/custom_btn"
+            android:padding="8dp"
+            app:srcCompat="@drawable/girl2" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="44dp"
+            android:background="@drawable/custom_btn"
+            android:drawableTint="@color/backgroundColor"
+            android:padding="8dp"
+            android:text="Add new profile"
+            android:textAllCaps="false"
+            android:textColor="@color/backgroundColor" />
+        <Button
+            android:id="@+id/contin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/custom_btn"
+            android:drawableRight="@drawable/arrow_right_24"
+            android:drawableTint="@color/backgroundColor"
+            android:padding="8dp"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/backgroundColor" />
+
+    </LinearLayout>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_btn"
+        android:drawableTint="@color/backgroundColor"
+        android:padding="8dp"
+        android:text="Modify profile information"
+        android:textAllCaps="false"
+        android:textColor="@color/backgroundColor" />
+
+</LinearLayout>
